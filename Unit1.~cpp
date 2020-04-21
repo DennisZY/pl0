@@ -290,6 +290,7 @@ void GetSym()
         J = NORW;
         do {
             K = (i + J) / 2;
+            Form1->printf("%d\n", K);
             if (strcmp(ID, KWORD[K]) <= 0)
                 J = K - 1;
             if (strcmp(ID, KWORD[K]) >= 0)

@@ -6,8 +6,9 @@
   4   C:=2; 
   6   READ(A); 
   8   IF A<>B THEN 
- 11     WRITE(B) 
- 14 END. 
+ 11     WRITE(B); 
+ 15   FOR; 
+ 15 END. 
   0  JMP   0   1
   1  INI   0   6
   2  LIT   0   8

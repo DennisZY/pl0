@@ -5,5 +5,6 @@ BEGIN
   C:=2;
   READ(A);
   IF A<>B THEN
-    WRITE(B)
+    WRITE(B);
+  FOR;
 END.
